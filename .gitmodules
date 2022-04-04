@@ -1,0 +1,3 @@
+[submodule "libupkg"]
+	path = libupkg
+	url = https://github.com/Universal-Packaging-Tool/libupkg.git
