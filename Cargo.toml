@@ -2,6 +2,8 @@
 name = "UPKG"
 version = "0.1.0"
 edition = "2021"
+license = "BSD-2-Clause"
+description = "UPKG is a \"universal\" package manager for linux."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
