@@ -128,7 +128,7 @@ checksum = "efaa7b300f3b5fe8eb6bf21ce3895e1751d9665086af2d64b42f19701015ff4f"
 [[package]]
 name = "libupkg"
 version = "0.1.0"
-source = "git+https://github.com/Universal-Packaging-Tool/libupkg#d2bf0c8b44712a94229829715f104bae2fdd5e6c"
+source = "git+https://github.com/Universal-Packaging-Tool/libupkg?branch=master#ddceeadb89d1c0e733d51559d5fa823f83d51a5e"
 dependencies = [
  "cargo-crate-type",
 ]
