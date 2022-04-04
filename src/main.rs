@@ -19,6 +19,6 @@ fn help() {
     return;
 }
 fn version() {
-    println!("upkg {}", upkg::VERSION);
+    println!("upkg version {}", env!("CARGO_PKG_VERSION"));
     return;
 }

@@ -1,5 +1,5 @@
 [package]
-name = "UPKG"
+name = "upkg"
 version = "0.1.0"
 edition = "2021"
 license = "BSD-2-Clause"
@@ -8,5 +8,6 @@ rust-version="1.59"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+
 [dependencies]
-libupkg = {git = "https://github.com/Universal-Packaging-Tool/libupkg"}
+libupkg = {git = "https://github.com/Universal-Packaging-Tool/libupkg", branch = "master"}
