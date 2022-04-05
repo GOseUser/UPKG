@@ -3,13 +3,6 @@
 version = 3
 
 [[package]]
-name = "UPKG"
-version = "0.1.0"
-dependencies = [
- "libupkg",
-]
-
-[[package]]
 name = "ansi_term"
 version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -214,6 +207,13 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "382810877fe448991dfc7f0dd6e3ae5d58088fd0ea5e35189655f84e6814fa56"
 dependencies = [
  "void",
+]
+
+[[package]]
+name = "upkg"
+version = "0.1.0"
+dependencies = [
+ "libupkg",
 ]
 
 [[package]]
